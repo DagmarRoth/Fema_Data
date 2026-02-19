@@ -14,9 +14,12 @@ This uses FEMA's official disaster declaration data. I calculated the difference
 
 ## Files
 
-- `index.html` - The actual visualization 
-- `FemaFinal.ipynb` - The code that made this
+- `index.html` - The visualization 
+- `FemaFinal.ipynb` - The code that made the visualization
 - `FEMA.mp4` - The video background
+- `FemaFinal.html` - The website
+- `Fema_Data.mp4`- The data
+- `gitattributes` - Web styling
 
 ## Made by
 
