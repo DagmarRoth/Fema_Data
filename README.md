@@ -1,55 +1,27 @@
-# FEMA Disaster Processing Analysis
+# Double Time: Tracking FEMA's Processing Speed Bump
 
-## Double Time: Tracking FEMA's Processing Speed Bump
+This is a visualization about what happens when FEMA gets less money and fewer people to do the same amount of work. Spoiler: processing times for disaster assistance literally doubled in late 2025.
 
-An interactive data visualization exploring the relationship between FEMA budget cuts, staff reductions, and disaster declaration processing delays in 2024-2025.
+## What's going on
 
-### Overview
+In 2025, FEMA went through some rough changes. The staff got cut by a third and the budget got slashed by $645 million. Then in October, another $11 billion in disaster payments got canceled. The result? Disaster victims waiting months longer for help.
 
-This project analyzes FEMA disaster declaration processing times across all U.S. states and territories, revealing a dramatic increase in processing delays following budget cuts and staff reductions in 2025. The visualization tracks how policy changes directly correlate with longer wait times for disaster assistance.
+The chart tracks all of this from 2022 through the end of 2025, showing how the processing times climbed when the budget cuts happened. It's not complicated math—fewer people = longer wait times, especially when you're dealing with the same number of disaster applications.
 
-### Key Finding
+## How to use it
 
-Disaster declaration processing times **doubled in the fourth quarter of 2025** following significant budget cuts and staff reductions at FEMA. According to systems analysts, fewer people processing the same volume of applications creates bottlenecks that cascade through the system—delays that compound during the exact periods when disaster victims need help most.
+Just open the page in your browser and hover over the dots to see specific disasters. The annotations on the chart show when the big policy changes happened.
 
-### Data & Methodology
+## The data
 
-- **Data Source**: FEMA disaster declarations (292 records)
-- **Analysis Period**: Historical disaster data through Q4 2025
-- **Smoothing Method**: LOESS regression for trend estimation
-- **Confidence Intervals**: 95% CI bands showing uncertainty bounds
+This uses FEMA's official disaster declaration data. It's pretty straightforward—how long did it actually take to process each disaster declaration?
 
-### Files
+## Files
 
-- `FemaFinal.html` - Interactive visualization (open in browser)
-- `FemaFinal.ipynb` - Jupyter notebook with full analysis
-- `Fema_Data.csv` - Raw FEMA disaster data
-- `FEMA.mp4` - Hero video background
+- `index.html` - The actual visualization (this is what you want to open)
+- `FemaFinal.ipynb` - The code that made this
+- `FEMA.mp4` - The video background
 
-### How to Use
-
-1. Open `FemaFinal.html` in your web browser to view the interactive visualization
-2. Hover over data points to see individual disaster details
-3. Interactive chart elements include:
-   - Disaster data points (green dots)
-   - Smoothed trend line (purple)
-   - 95% confidence intervals (shaded area)
-   - Key policy events marked with diamonds
-
-### Key Events Marked
-
-**2024 (Blue diamonds):**
-- March: DHS Appropriations Act adds $20.261 billion for Disaster Relief Fund
-- June: Congress passed $500 million flood mitigation fund
-
-**2025 (Red diamonds):**
-- May: Staff reduced by 1/3, $646M budget cut
-- October: FEMA canceled $11B in disaster payments
-
-### Author
+## Made by
 
 Dagmar Rothschild
-
-### Source
-
-Data and analysis exploring the impact of policy decisions on FEMA's operational capacity and disaster response times.
