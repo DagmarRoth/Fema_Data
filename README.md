@@ -10,7 +10,7 @@ The chart tracks all of this from 2022 through the end of 2025, showing how the 
 
 ## The data
 
-This uses FEMA's official disaster declaration data. I then had to calculate the difference between the day the declaration request was filed and the day it was declared. I also calculated the average processing time for each quarter and each quarters standard deviation.
+This uses FEMA's official disaster declaration data. I calculated the difference between the day the declaration request was filed and the day it was declared in order to get the processing time. I also calculated the average processing time for each quarter and each quarters standard deviation.
 
 ## Files
 
